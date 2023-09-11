@@ -3,9 +3,255 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>Project-2 Hospital Website Landing Page</title>
   </head>
   <body>
-    
+    <section class="hero__section">
+      <header class="header">
+        <div class="header__left">
+          <!-- Logo -->
+          <div class="logo">
+            <h2>BrandName</h2>
+          </div>
+
+          <!-- Navbar  -->
+          <nav class="navbar">
+            <ul>
+              <li>
+                <a href="#home"> Home </a>
+              </li>
+              <li>
+                <a href="#product"> Product </a>
+              </li>
+              <li>
+                <a href="#pricing"> Pricing </a>
+              </li>
+              <li>
+                <a href="#contact"> Contact </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- Login and Sign Up -->
+        <button class="btn-primary">
+          <a href="#signup">Get Quote Now </a>
+        </button>
+      </header>
+
+      <main class="main__section">
+        <div class="main__left">
+          <div>
+            <h2>Meet the Best</h2>
+            <h2>Hospital</h2>
+          </div>
+          <p>We Know how large object will act,but things on a small scale.</p>
+          <div class="cta">
+            <button class="btn1">
+              <a href="#get-quote"> Get Started </a>
+            </button>
+            <button class="btn2">
+              <a href="#learn-more"> Learn More </a>
+            </button>
+          </div>
+        </div>
+        <div class="main__right">
+          <div class="main__right__form">
+            <h3>Book Appointment</h3>
+            <form id="form">
+              <div class="form_field">
+                <label>Name*</label>
+                <input type="text" name="name" placeholder="Full Name" />
+              </div>
+              <div class="form_field">
+                <label>Email Address*</label>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="example@gmail.com"
+                />
+              </div>
+              <div class="form_field">
+                <label>Department*</label>
+                <select name="department" id="department">
+                  <option value="">Please Select</option>
+                  <option value="emergency">Emergency</option>
+                  <option value="medical-surgical">Medical-Surgical</option>
+                  <option value="icu ">ICU</option>
+                  <option value="imaging">Imaging</option>
+                </select>
+              </div>
+              <div class="form_field">
+                <label>Time*</label>
+                <select name="time" id="time">
+                  <option value="">Please Select</option>
+                  <option value="4-am">4:00 AM</option>
+                  <option value="8-am">8:00 AM</option>
+                  <option value="12-pm">12:00 PM</option>
+                  <option value="3-pm">3:00 PM</option>
+                </select>
+              </div>
+              <button class="btn-primary">
+                <a href="#form">Get Quote Now </a>
+              </button>
+            </form>
+          </div>
+        </div>
+      </main>
+    </section>
+
+    <section class="service__section">
+      <div class="service__intro">
+        <h2>Leading Medicine</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit., amet
+          consectetur adipisicing .
+        </p>
+      </div>
+      <div class="service__features">
+        <div class="service__card">
+          <div class="service__card__top">
+            <div class="user__icon">
+              <img src="./assets/users.svg" />
+            </div>
+            <p>Emergency Case</p>
+          </div>
+          <div class="service__card__bottom">
+            <ul class="dashed">
+              <li>The best Product starts with Figma</li>
+              <li>Design with Real data</li>
+              <li>Lightning Fast Prototyping.</li>
+              <li>Fastest way to organize.</li>
+              <li>Work at the pseed of thought</li>
+            </ul>
+            <p>Learn More</p>
+          </div>
+        </div>
+
+        <div class="service__card">
+          <div class="service__card__top">
+            <div class="user__icon">
+              <img src="./assets/users.svg" />
+            </div>
+            <p>Cancer Care</p>
+          </div>
+          <div class="service__card__bottom">
+            <ul class="dashed">
+              <li>The best Product starts with Figma</li>
+              <li>Design with Real data</li>
+              <li>Lightning Fast Prototyping.</li>
+              <li>Fastest way to organize.</li>
+              <li>Work at the pseed of thought</li>
+            </ul>
+            <p>Learn More</p>
+          </div>
+        </div>
+
+        <div class="service__card">
+          <div class="service__card__top">
+            <div class="user__icon">
+              <img src="./assets/users.svg" />
+            </div>
+            <p>Health Queries</p>
+          </div>
+          <div class="service__card__bottom">
+            <ul class="dashed">
+              <li>The best Product starts with Figma</li>
+              <li>Design with Real data</li>
+              <li>Lightning Fast Prototyping.</li>
+              <li>Fastest way to organize.</li>
+              <li>Work at the pseed of thought</li>
+            </ul>
+            <p>Learn More</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonail section  -->
+    <section class="testimonial__section">
+      <div class="testimonial__content">
+        <div class="testimonial__intro">
+          <h2>Leading Medicine</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit., amet
+            consectetur adipisicing .
+          </p>
+        </div>
+        <div class="testimonial__display">
+          <div class="testimonial__card">
+            <div class="testimonial__rating">
+              <img src="./assets/star-filled.svg" />
+              <img src="./assets/star-filled.svg" />
+              <img src="./assets/star-filled.svg" />
+              <img src="./assets/star-filled.svg" />
+              <img src="./assets/star-hollow.svg" />
+            </div>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Reprehenderit, alias aliquam quo eum quas adipisci?
+            </p>
+            <div class="testimonial__card_img">
+              <img src="./assets/user-1.png" />
+            </div>
+          </div>
+
+          <div class="testimonial__card">
+            <div class="testimonial__rating">
+              <img src="./assets/star-filled.svg" />
+              <img src="./assets/star-filled.svg" />
+              <img src="./assets/star-filled.svg" />
+              <img src="./assets/star-filled.svg" />
+              <img src="./assets/star-hollow.svg" />
+            </div>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Reprehenderit, alias aliquam quo eum quas adipisci?
+            </p>
+            <div class="testimonial__card_img">
+              <img src="./assets/user-2.png" />
+            </div>
+          </div>
+
+          <div class="testimonial__card">
+            <div class="testimonial__rating">
+              <img src="./assets/star-filled.svg" />
+              <img src="./assets/star-filled.svg" />
+              <img src="./assets/star-filled.svg" />
+              <img src="./assets/star-filled.svg" />
+              <img src="./assets/star-hollow.svg" />
+            </div>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Reprehenderit, alias aliquam quo eum quas adipisci?
+            </p>
+            <div class="testimonial__card_img">
+              <img src="./assets/user-3.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section  -->
+    <section class="pricing__section">
+      <div class="pricing__content"></div>
+    </section>
+
+    <!-- FAQS Section  -->
+    <section class="faq__section">
+      <div class="faq__content"></div>
+    </section>
+
+    <!-- NewsLetter Section  -->
+    <section class="newsletter__section">
+      <div class="newsletter__content"></div>
+    </section>
+
+    <!-- NewsLetter Section  -->
+    <footer class="footer__section">
+      <div class="footer__content"></div>
+    </footer>
   </body>
 </html>
